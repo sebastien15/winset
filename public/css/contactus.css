@@ -1,0 +1,104 @@
+.forContactus{
+    height: 30vh;
+}
+.addressContainer{
+    padding: 10px 50px;
+}
+.addressContainer header{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.addressContainer p{
+    margin-top: 5px;
+    font-size: 18px;
+}
+.socialMediaSection{
+    margin-top: 15px;
+}
+.socialMediaSection h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.socialMediaSection .links a{
+    display: inline;
+}
+.googleMap h4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.googleMap .googleMapBox{
+    height: 80vh;
+    width: 80%;
+    background: blue;
+}
+.suggestionArea{
+    padding-left: 4%;
+    margin-bottom: 20px;
+}
+.suggestionArea header{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.suggestionForm{
+    width: 80%;
+}
+.suggestionForm form .formGroup{
+    margin-top: 10px;
+}
+.suggestionForm form .formInput{
+    border: 0px;
+    height: 28px;
+    width: 40%;
+
+}
+.suggestionForm form :nth-child(1) input{
+    margin-left: 100px;
+}
+.suggestionForm form :nth-child(2) input{
+    margin-left: 101px;
+}
+.suggestionForm form :nth-child(3) input{
+    margin-left: 111px;
+}
+.suggestionForm form :nth-child(4) input{
+    margin-left: 94px;
+}
+.suggestionForm form :nth-child(5) input{
+    margin-left: 44px;
+}
+.suggestionForm form :nth-child(6) label{
+    margin-top: -100px;
+}
+.suggestionForm form :nth-child(6) .formInput{
+    margin-left: 15px;
+    height: 200px;
+}
+.btn-submit{
+    background: white;
+    color: black;
+    border: 0px;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 81%;
+    margin-top: 15px;
+}
+.errordisplayer{
+    background: rgba(255, 17, 0, 0.644);
+    width: 40%;
+    margin-left: 16.5%;
+}
+.errordisplayer ul{
+    list-style-type: disc;
+    color: whitesmoke;
+}
+.linkAnchor{
+    text-decoration: none;
+}
+.linkAnchor img{
+    height: 18px;
+    width: 18px;
+}

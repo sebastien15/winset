@@ -1,0 +1,515 @@
+
+@media screen and (max-width: 768px) {
+    .phone-cover{
+        background: #000066cc;
+        height: 100vh;
+        width: 100%;
+        z-index: 10;
+        position: absolute;
+        -webkit-clip-path: circle(0% at 100% 0%);
+        clip-path: circle(0% at 100% 0%);
+    }
+    .phone-cover-full{
+        -webkit-clip-path: circle(1000% at 100% 0%);
+        clip-path: circle(1000% at 100% 0%);
+        transition: all 3s ease;
+    }
+    .phone-links{
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-betwen;
+        padding-top: 10vh;
+        z-index: 11;
+        opacity: 0;
+    }
+    .phone-links div a{
+        text-decoration: none;
+        color: white;
+        font-weight: 800;
+        font-size: 24px;
+    }
+    .phone-full-color{
+        opacity: 1;
+        transition: all 2s ease 0.2s;
+    }
+    .desk-nav{
+        display: -webkit-flex;
+        display: flex;
+        width: 100%;
+    }
+    .logoimg {
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    .imgbg{
+        object-fit: cover;
+    }
+    .links-container{
+        display: none;
+    }
+    .bread-cumb{
+        width: 40%;
+        border-radius: 4px;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        z-index: 11;
+    }
+    .line-container{
+        background: darkblue;
+        width:45px;
+        height: 35px;
+        padding:8px 5px 5px 7px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .line{
+        height: 3px;
+        width: 30px;
+        background: white;
+        margin-bottom: 5px;
+    }
+    .dnone{
+        display: none;
+        transition: all 3s ease 0.5s;
+    }
+    .rotate45{
+        transform: translate(0px, 6px) rotate(45deg);
+        transition: all 1s ease 0.3s;
+    }
+    .rotate-45{
+        transform: translate(0px, -2px) rotate(-45deg);
+        transition: all 1s ease 0.3s;
+    }
+    .text-caption h1{
+        margin: 15px 0px;
+        font-size: 32px;
+        color: white;
+        font-weight: 400;
+    }
+    .text-caption h2{
+        text-transform: uppercase;
+        margin: 15px 0px;
+        font-size: 28px;
+        color: white;
+    }
+    .search-caption{
+        width: 100%;
+    }
+    .search-caption form{
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+    }
+    .radios{
+        display: -webkit-flex;
+        display: flex; 
+    }
+    .radios .radiolabels{
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        margin-right: 5px;
+        margin-bottom: -10px;
+    }
+    .search-input-div{
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+    }
+    .search-input-div .search-input{
+        width: 100%;
+        position: absolute;
+        height: 45px;
+        width: 100%;
+        font-size: 18px;
+        position: absolute;
+        padding-right: 5px;
+    }
+    .search-input-div #submitbtn{
+        height: 40px;
+        width: 40px;
+        margin-left: 85%;
+        font-size: 18px;
+        position: relative;
+        border: 1px solid rgb(0, 66, 0);
+        border-radius: 4px;
+        padding: 4px;
+        margin-top: 3px;
+    }
+    #submitbtn img{
+        height: 35px; 
+        width: 35px;
+    }
+    #advancedbtn{
+        background: black;
+        color: white;
+        border-radius: 4px;
+        border: 0.5px solid black;
+        margin-top: 4px;
+        margin-left: 75%;
+        padding: 3px  5px;
+    }
+    /* product style starts*/
+    
+    .properties-section{
+        max-width: 100%;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+    }
+    .col-5 .img-container header{
+        margin-left: 75%;
+        position: absolute;
+        top: 10px;
+    }
+    .img-container a img{
+        height: 99%;
+    }
+    .properties-section header h2{
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .property-row{
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+    }
+    .property-row .col-5{
+        width: 90%;
+        margin: 15px auto;       
+    }
+
+    /* product style ends*/
+    /* client's review style starts*/
+
+    .reviews-section{
+        width: 90%;
+        margin: 5px auto;
+    }
+    .reviews-section header{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .review-row{
+        display: -webkit-flex;
+        display: flex;
+        width: 100%;
+    }
+    .review-row div{
+        width: 80%;
+    }
+    .review-para{
+        font-size: 10px;
+    }
+    .review-row img{
+        width: 20%;
+        height: auto;
+    }
+    /* client's review style ends*/
+    /* partner's section style starts*/
+
+    .partners-section{
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .partners-section header{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .partners-img{
+        height: 40px;
+        width: 40px;
+    }
+    /* partner's section style ends*/
+    
+    /* footer style starts*/
+    .footer-section{
+        width: 100%;
+    }
+    .footer-top{
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col-3{
+        width: 100%;
+    }
+    .quicklinks{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .footer-bottom{
+        width: 100%;
+    }
+    /* footer style ends*/
+
+    /* properties description syles starts */
+    #forpropertydesc{
+        background: rgba(0, 0, 0, 0.11);
+    }
+    .property-full-expo{
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+    }
+    .property-gallery{
+        width: 90%;
+        margin: auto;
+    }
+    .img-holder{
+        height: 200px;
+    }
+    .mySliders{
+        height: 198px; 
+    }
+    .more-img-1{
+        height: 70px;
+    }
+    .more-img-img{
+        height: 100%;
+    }
+    .property-contact{
+        display: none;
+    }
+    .property-full-desc{
+        flex-direction: column;
+    }
+    .property-details{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .sellCaption{
+        display: block;
+        position: absolute;
+        border-radius: 4px;
+        padding: 4px;
+        z-index: 5;
+        background-color: white;
+        margin-top: 5px;
+        margin-left: 5px;
+        font-size: 10px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .property-gallery .more-details{
+        display: -webkit-flex;
+        display: flex;
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+        align-content: flex-end;
+    }
+    .more-details .col2{
+        width: 50%;        
+    }
+    .col2 .stamp{
+        background: darkgreen;
+        border-radius: 5px;
+        padding: 4px;
+        color: white;
+        font-size: 12px;
+    }
+    .col2 img{
+        width: 20px;
+        height: 20px;
+    }
+    .for1{
+        margin-right: 25px;
+    }
+    .agent-details{
+        display: none;
+    }
+    .agent-details-forphone{
+        display: block;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+    }
+    .agent-details-forphone h6{
+        background: rgba(0, 0, 0, 0.233);
+        color: #006600;
+        font-size: 18px;
+        text-align: center;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    .agent-details-forphone div{
+        display: -webkit-flex;
+        display: flex;
+        padding: 2px;
+    }
+    .agent-img-holder-forphone{
+        width: 40%;
+    }
+    .agent-img-holder-forphone img{
+        width: 80%;
+        border-radius: 5px;
+        height: 90px;
+    }
+    .agent-contact-forphone{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .form-forphone{
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+    }
+    .form-forphone form{
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+    }
+    .form-forphone form label{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .form-forphone form button{
+        margin-top: 10px;
+        padding: 5px;
+        background: darkgreen;
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        border: 0px;
+        height: 5.5vh;
+        border-radius: 5px;
+    }
+    .form-forphone form input{
+        height: 5.5vh;
+        border-radius: 5px;
+        border: 0.3px solid #006600; 
+    }
+    .form-forphone form textarea{
+        height: 15vh;
+        border-radius: 5px;
+        border: 0.3px solid #006600; 
+    }
+    .contactSection{
+        display: inline-block;
+        margin-left: 35%;
+        position: relative;
+        z-index: 10;
+    }
+    .btns-div{
+        bottom: 0%;
+        position: absolute;
+        /* display: -webkit-flex;
+        
+        margin-top: 10px;
+        position: fixed;
+        z-index: 100;
+        margin-top: 80vh; */
+    }
+    .btns-div a{
+        min-width: 48%;
+        margin: auto;
+        text-align: center;
+        background: red;
+        padding: 8px;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 5px;
+        
+    }
+    .btns-div :nth-child(1){
+        margin-right: 2%;
+    }
+    .simiral-property{
+        display: none;
+    }
+    /* properties description syles ends */
+
+    /* properties styles  starts*/
+    .googleMap .googleMapBox{
+        height: 40vh;
+        min-width: 100%;
+    }
+    .search-form-container{
+        display: none;
+    }
+    .properties-container{
+        display: none;
+    }
+    
+    /* properties styles ends */
+
+    /* contactus styles starts */
+    .forContactus{
+        margin-bottom: -40px;
+    }
+    .suggestionForm {
+        width: 100%;
+    }
+    .formGroup{
+        width: 100%;
+        display: flex;
+        -webkit-display: flex;
+        flex-direction: column;
+    }
+    .formGroup label{
+        width: 100%;
+        margin-bottom: 4px;
+    }
+    .formGroup input{
+        width: 100%;
+    }
+    .formInput{
+        min-width: 96%;
+
+
+/* 
+        border: 0px;
+    height: 28px;
+    width: 40%;
+    margin-left: 0px;
+    height: 200px; */
+    }
+    .suggestionForm form :nth-child(1) input{
+        margin-left: 0px;
+    }
+    .suggestionForm form :nth-child(2) input{
+        margin-left: 0px;
+    }
+    .suggestionForm form :nth-child(3) input{
+        margin-left: 0px;
+    }
+    .suggestionForm form :nth-child(4) input{
+        margin-left: 0px;
+    }
+    .suggestionForm form :nth-child(5) input{
+        margin-left: 0px;
+    }
+    .suggestionForm form :nth-child(6) label{
+        margin-top: 0px;
+    }
+    .suggestionForm form :nth-child(6) .formInput{
+        margin-left: 0px;
+        height: 0px;
+    }
+    .formGroup textarea{
+        min-height: 200px;
+    }
+    /* contact us styles ends */
+}

@@ -1,0 +1,705 @@
+*{
+    margin:0px;
+    box-sizing:border-box;
+
+}
+
+/* ---------------------------- home styles starts ----------------------------------------------- */
+body{
+    margin:0px; 
+    background: #e5e5e5;
+    font-family: 'Roboto', sans-serif;
+}
+.pagination{
+    margin: auto;
+    list-style: none;
+}
+.pagination li{
+    display: inline;
+    font-weight: 600;
+    color: darkblue;
+}
+.pagination li a{
+    font-weight: 600;
+    color: darkblue;
+    text-decoration: none;
+}
+/*landing section styles */
+
+.landing-section{
+    height:100vh;
+    position: relative;
+    margin-bottom: 30px;
+}
+.logoimg {
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+.imgbg{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -10;
+}
+.nav-section{
+    position:relative;
+    min-height: 110px;
+    padding: 15px;
+}
+.desk-nav{
+    width: 100%;
+    min-height: 120px;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+}
+.logo-container{
+    width: 60%;
+}
+.links-container{
+    width: 40%;
+}
+.links-container ul{
+    list-style: none;
+    margin-top: 5%;
+}
+.links-container ul li{
+    background: rgb(0, 0, 66);
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: inline;
+    margin-right: 5px;
+}
+.links-container ul li a{
+    color: white;
+    text-decoration: none;
+}
+.links-container ul li a:hover{
+    font-size:17px;
+}
+.phone-links{
+    display: none;
+}
+.caption-div{
+    width: 80%;
+    margin:auto;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-caption{
+    text-align: center;
+    margin-top: 25px;
+}
+.text-caption h1{
+    margin: 15px 0px;
+    font-size: 38px;
+    color: white;
+}
+.text-caption h2{
+    text-transform: uppercase;
+    margin: 15px 0px;
+    font-size: 34px;
+    color: white;
+}
+.search-caption{
+    width: 70%;
+    margin: auto;
+}
+.radios{
+    display: block;
+    margin:15px 0px;
+}
+.radios .radiobtn{
+    display: none;
+}
+.radios .radiolabels{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.radios #buylabel{
+    background: rgb(0, 0, 66);
+}
+.radios #selllabel{
+    background: #006600;
+}
+.search-input-div{
+    width: 100%;
+    position: relative;
+}
+.search-input-div .search-input{
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 22px;
+    position: absolute;
+    padding-right: 5px;
+}
+.search-input-div #submitbtn{
+    background: rgb(0, 66, 0);
+    height: 60px;
+    width: 60px;
+    margin-left: 95%;
+    font-size: 28px;
+    position: relative;
+    border: 1px solid rgb(0, 66, 0);
+    border-radius: 4px;
+    padding: 4px;
+}
+#submitbtn img{
+    height: 50px; 
+    width: 50px;
+}
+#advancedbtn{
+    background: black;
+    color: white;
+    border-radius: 4px;
+    border: 0.5px solid black;
+    margin-top: 4px;
+    margin-left: 92%;
+    padding: 6px 10px;
+}
+/*landing section styles ends*/
+
+
+/* property section style starts */
+.properties-section{
+    min-height: 200px;
+    position: relative;
+}
+.properties-section header{
+    text-align:center;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.property-row{
+    display: -webkit-flex;
+    display: flex;
+    padding: 0px 15px;
+    margin-bottom: 20px;
+}
+.col-5{
+    width: 18%;
+    padding: 5px 5px;
+    background: white;
+    margin:0% 1%;
+}
+.img-container{
+    position: relative;
+    height: 165px;
+    border-radius: 10px;
+}
+.img-container img{
+    position: absolute;
+    border-radius: 5px;
+}
+.img-container header{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 600;
+    background: darkblue;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: 75%;
+    color: white;
+    top: 5px;
+}
+.price-container{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.property-sum{
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.desc-container{
+    font-size: 14px;
+}
+/* property section style ends */
+
+
+/* clients review section style starts */
+
+.reviews-section{
+    background: white;
+}
+.reviews-section{
+    text-align: center;
+    font-size: 38px;
+    margin: 20px 15px;
+    padding: 15px;
+    font-weight: 600;
+}
+.riview-row{
+    display: -webkit-flex;
+    display: flex;
+}
+.review-row div{
+    display: inline-block;
+    width: 80%;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* .review-para p{
+    width: 100%;
+} */
+/* .review-para p span{
+    width: 50%;
+    margin: auto;
+} */
+.review-row img{
+    display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+/* clients review section style ends */
+
+/* partners review section style starts*/
+
+.partners-section{
+    text-align: center;
+    font-size: 38px;
+    margin: 30px 15px;
+    padding: 15px;
+    font-weight: 600;
+    background:white;
+}
+.partners-div{
+    display: -webkit-flex;
+    display: flex;
+    overflow-x: auto;
+}
+.col-8{
+    width: 20%;
+}
+.partners-img{
+    width: 100px;
+    height: 100px;
+}
+/* partners review section style ends*/
+
+/* footer section style starts */
+
+.footer-top{
+    display: -webkit-flex;
+    display: flex;
+    background: black;
+    color: white;
+    padding:45px 15px;
+}
+.col-3{
+    width: 33.33%;
+}
+.col-3 div{
+    text-align: center;
+}
+.col-3 div h4{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.vision-holder{
+    margin-bottom: 15px;
+}
+.vision-holder p{
+    font-size: 14px;
+}
+.mission-holder p{
+    font-size: 14px;
+}
+.quicklinks{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quicklinks h4{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.quicklinks ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.contacts{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+.contacts .sociallinks{
+    margin-top:25px;
+}
+.contacts div p {
+    font-size: 14px;
+    cursor: pointer;
+}
+.contacts div p a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.footer-bottom{
+    text-align: center;
+    max-height: 28px;
+    background: black;
+    color: white;
+    padding:4px;
+}
+.sociallinks ul{
+    list-style: none;
+    margin-left: -50px;
+}
+.sociallinks li{
+    display: inline;
+    margin-right: 5px;
+}
+.sociallinks ul li a img{
+    height: 20px;
+    width: 20px;
+}
+/* footer section style ends */
+
+
+
+/* ---------------------------- home styles ends ----------------------------------------------- */
+
+/* ---------------------------- property description styles starts-------------------------------- */
+
+#forpropertydesc{
+    background: white;
+}
+/* nav section styles starts*/
+
+.forpropertydesc{
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+}
+.links-container1{
+    width: 40%;
+}
+.links-container1 ul{
+    list-style: none;
+    margin-top: 15%;
+}
+.links-container1 ul li{
+    background: darkblue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: inline;
+    margin-right: 5px;
+}
+.links-container1 ul li a{
+    color: white;
+    text-decoration: none;
+}
+.links-container1 ul li a:hover{
+    font-size:17px;
+}
+
+/* nav section styles starts*/
+
+/* property expo section styles starts*/
+
+.property-full-expo{
+    display: -webkit-flex;
+    display: flex;   
+    margin: 15px 20px;
+    position: relative;
+}
+.sellCaption{
+    display: none;
+}
+.property-gallery .more-details{
+    display: none;
+}
+.property-gallery{
+    width: 60%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+.img-holder{
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 450px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.mySliders{
+    width: 100%;
+    max-height: 448px; 
+    border-radius: 4px;
+    position: relative;
+}
+.more-img{
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.more-img-1{
+    min-width: 25%;
+    height: 130px;
+}
+.more-img-img{
+    width: 100%;
+    height: 100%;
+}
+.property-contact{
+    width: 40%;
+}
+.property-contact div{
+    width:70%;
+    margin: auto;
+    background: black;
+    padding: 15px;
+    height: 600px;
+}
+.property-contact div h4{
+    color: white;
+    text-align: center;
+    font-size: 19px;
+}
+.property-contact div form{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    margin-top:15px;
+}
+.property-contact div form input{
+    width: 90%;
+    margin: 7px auto;
+    height: 30px;
+    font-size: 18px;
+    background: white;
+    border: 0.5px solid white;
+    padding-left: 5px;
+}
+.property-contact div form textarea{
+    width: 90%;
+    margin: 5px auto;
+    font-size: 18px;
+    height: 200px;
+    background: white;
+    border: 0.5px solid white;
+}
+.property-contact div form button{
+    width: 90%;
+    margin: 15px auto;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    border: 0.5px solid white;
+    padding: 5px;
+}
+.property-contact div form button:hover{
+    font-size: 19px;
+}
+/* property expo section styles ends*/
+
+/*  property full desc section styles starts*/
+
+.property-full-desc{
+    display: -webkit-flex;
+    display: flex;   
+    min-height: 400px;   
+    margin: 15px 20px;
+}
+.property-details{
+    width: 60%;
+    border: 0.5px solid rgb(164, 186, 228);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px;
+    
+}
+.property-details h4{
+    background:  rgb(164, 186, 228);
+    margin: -5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+    color: rgb(187, 82, 33);
+    font-size: 22px;
+}
+.property-details p{
+    margin-top: 10px;
+}
+.agent-details-forphone{
+    display: none;
+}
+.agent-details{
+    width: 40%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+.agent-h6{
+    text-align: center;
+    font-size: 19px;
+}
+.agent-img-holder{
+    height: 200px;
+    border-radius: 50%;
+    width: 70%;
+    margin: 5px auto;
+}
+.agent-img-holder img{
+    width: 100%;
+    height: 100%;
+}
+.agent-details div{
+    width: 70%;
+    margin: auto;
+}
+.agent-contact p{
+    text-align: center;
+    font-size: 18px;
+}
+.agent-slogan p{
+    margin-top: 15px;
+    text-align: center;
+}
+.agent-social{
+    text-align: center;
+}
+/* property full desc section styles  ends*/
+
+/* simiral properties section styles starts*/
+
+.simiral-property{
+    display: -webkit-flex;
+    display: flex; 
+    flex-direction: column; 
+    margin: 15px 20px;
+}
+.simiral-property header{
+    font-size: 20px;
+    font-weight: 600;
+}
+.img-container img{
+    width: 100%;
+}
+.form-forphone{
+    display: none;
+}
+.propertyLinks{
+    text-decoration: none;
+}
+/* simiral properties section styles ends*/
+/* ---------------------------- property description styles ends-------------------------------- */
+
+
+/* style for search page */
+
+.singleLink{
+    text-decoration: none;
+    background: darkgreen;
+    color: white;
+    font-size: 20px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 2px;
+}
+.singleLink:hover{
+    color: darkred;
+}
+.contactSection{
+    display: none;
+}
+/* style for search page ends */
+
+/* style for the model starts */
+.model-section{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 139,0.4);
+    display: none;
+}
+.model{
+    position: absolute;
+    background: rgba(0, 0, 139,0.9);
+    max-height: 80vh;
+    width:  70%;
+    margin-left: 15%;
+    margin-top: 10vh;
+    padding-top: 5px;
+}
+.model-image-container{
+    height: 50%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+div .model-image{
+    height: 60vh;
+    width: 130vh;
+}
+.closing-link{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+    margin-left: 96.5%;
+    cursor: pointer;
+}
+.arrow-container{
+    position: absolute;
+    top:50%;
+    z-index: 12;
+    width: 100%;
+    cursor: pointer;
+}
+.left-arrow {
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-shadow: 0 0 20px rgba(0,0,0, 0.6);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    top: 50%;
+    transition: all 150ms ease;
+    left: 10px;
+    position: absolute;
+    display: inline-block;
+}
+.left-arrow:hover{
+    background-color: rgba(0,0,0,0.5);
+    text-shadow: 0;
+}
+.right-arrow:hover{
+    background-color: rgba(0,0,0,0.5);
+    text-shadow: 0;
+}
+
+.right-arrow{
+    position: absolute;
+    right: 20px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-shadow: 0 0 20px rgba(0,0,0, 0.6);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    top: 50%;
+    transition: all 150ms ease;
+    display: inline-block;    
+}
+/* style for the model ends */

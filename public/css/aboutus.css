@@ -1,0 +1,376 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+.landing-section{
+    position: relative;
+}
+.bgimg{
+    width: 100%;
+    height:100vh;
+    position: fixed;
+    z-index: -100;
+}
+.coverbg{
+    width: 100%;
+    height:100vh;
+    z-index: 1;
+    background: rgba(0,0,0,0.6);
+}
+.caption-abt{
+    text-align: center;
+    color: white;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+.caption-abt-top{
+    width: 90%;
+    margin: 0px auto;
+}
+.caption-abt-top h2{
+    font-size: 28px;
+}
+.caption-p{
+    margin-top: 15px;
+    font-size: 22px;
+}
+.caption-abt-bottom{
+    position: relative;
+    margin-top: 40px;
+}
+.whiteline-container{
+    width:60%;
+    padding-left: 38%;
+    position: absolute;
+}
+.whiteline{
+    position: relative;
+    height: 250px;
+    width: 300px;
+    background: white;
+    clip-path: polygon(100% 0, 3% 100%, 0% 100%,97% 0%);
+}
+.content-container{
+    display: -webkit-flex;
+    display: flex;
+}
+.vision-container{
+    width: 50%;
+    text-align: center;
+    padding-top: 20px;
+    background: rgb(20,52,65,0.6);
+    clip-path: polygon(30% 0, 100% 0, 70% 100%, 0% 100%);
+    height: 180px;
+    margin-left: 70px;
+}
+.vision-container h4{
+    font-size: 20px;
+}
+.vision-container p{
+    margin-top: 5px;
+    font-size: 18px;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+.mission-container{
+    width: 50%;
+    text-align: center;
+    padding-top: 20px;
+    background: rgb(20,52,65,0.6);
+    clip-path: polygon(30% 0, 100% 0, 70% 100%, 0% 100%);
+    height: 180px;
+    margin-top: 70px;
+    margin-left: -170px;
+}
+.mission-container h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.mission-container p{
+    margin-top: 25px;
+    font-size: 18px;
+    padding-left: 100px;
+    padding-right: 130px;
+}
+.ourServices{
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.ourServices h4{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.secContainer{
+    display: -webkit-flex;
+    display: flex;
+}
+.sec1{
+    width: 50%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+.sec2{
+    width: 50%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+.rw1{
+    display: -webkit-flex;
+    display: flex;
+    padding: 10px;
+    background: rgb(20,52,65,0.6);
+    border-radius: 8px;
+    width: 60%;
+    margin: auto; 
+    margin-bottom: 40px;
+}
+.rw2{
+    display: -webkit-flex;
+    display: flex;
+    padding: 10px;
+    background: rgb(20,52,65,0.6);
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    margin: auto; 
+}
+.rw3{
+    display: -webkit-flex;
+    display: flex;
+    padding: 20px;
+    padding-right: 10px;
+    background: rgb(20,52,65,0.6);
+    border-radius: 8px;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px; 
+}
+.iconHolder{
+    width: 20%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.iconHolder .icon{
+    width: 65px;
+    height: 65px;
+}
+.textHolder{
+    width: 60%;
+    text-align: center;
+}
+.textHolder h5{
+    font-size: 24px;
+}
+.textHolder h5 a{
+    text-decoration: none;
+    color: white;
+}
+.textHolder div{
+    width: 100%;
+    height: 2px;
+    margin: 8px auto;
+    background: white;
+}
+.textHolder p a{
+    text-decoration: none;
+    color: white;
+}
+.teamSection{
+    margin-top: 20px;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.teamSection .head{
+    color: white;
+    font-size: 25px;
+}
+.teamSection .team{
+    color: white;
+    width: 80%;
+    margin: auto;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.imgHolder{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.nameHolder h6{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+.contactHolder ul{
+    list-style: none;
+    font-size: 12px;
+}
+.imgTeam{
+    height: 150px;
+    width: 150px;
+}
+@media screen and (max-width: 768px) {
+    body{
+        box-sizing: border-box;
+    }
+    .landing-section{
+        margin-bottom: -90px;
+    }
+    .caption-abt-top h2{
+        font-size: 14px;
+    }
+    .caption-p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .whiteline-container{
+        width:60%;
+        padding-left: 5%;
+        position: absolute;
+    }
+    .whiteline{
+        position: relative;
+        height: 160px;
+        width: 300px;
+        background: white;
+        clip-path: polygon(100% 0, 3% 100%, 0% 100%,97% 0%);
+    }
+    .vision-container{
+        position: relative;
+        width: 545px;
+        padding-top: 4px;
+        padding-left: 10px;
+        padding-right: 20%;
+        text-align: left;
+        background: rgb(20,52,65,0.6);
+        clip-path: polygon(0% 0, 100% 0, 35% 100%, 0% 100%);
+        height: 105px;
+        margin-left: 0px;
+    }
+    .vision-container h4{
+        font-size: 12px;
+        margin-top: 5px;
+        margin-left: 30%;
+    }
+    .vision-container p{
+        margin-top: 5px;
+        font-size: 12px;
+        padding-left: 4px;
+        padding-right: 20%;
+    }
+    .mission-container{
+        width: 660px;
+        text-align: right;
+        padding-top: 10px;
+        background: rgb(20,52,65,0.6);
+        clip-path: polygon(62% 0, 100% 0, 100% 100%, 0% 100%);
+        height: 105px;
+        margin-top: 55px;
+        margin-left: -250px;
+        padding-right: 10px;
+    }
+    .mission-container h4{
+        margin-top: 5px;
+        font-size: 12px;
+        margin-right: 10%;
+    }
+    .mission-container p{
+        margin-top: 15px;
+        font-size: 12px;
+        padding-left: 28%;
+        padding-right: 5px;
+    }
+    .ourServices h4{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .secContainer{
+        flex-direction: column;
+    }
+    .sec1{
+        width: 100%;
+    }
+    .sec2{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .rw1{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .rw2{
+        width: 90%;
+        margin: auto; 
+    }
+    .rw3{
+        padding: 10px;
+        width: 90%; 
+    }
+    .iconHolder{
+        width: 20%;
+        margin-right: 10px;
+        border-radius: 50%;
+    }
+    .iconHolder .icon{
+        width: 65px;
+        height: 65px;
+    }
+    .textHolder{
+        width: 60%;
+        text-align: center;
+    }
+    .textHolder h5{
+        font-size: 16px;
+    }
+    .textHolder div{
+        height: 1.5px;
+        margin: 6px auto;
+        background: white;
+    }
+    .teamSection{
+        margin-top: 10px;
+    }
+    .teamSection .head{
+        font-size: 14px;
+    }
+    .teamSection .team{
+        width: 100%;
+        flex-direction: column;
+    }
+    .imgHolder{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    }
+    .nameHolder h6{
+        margin-bottom: 10px;
+        margin-left: 30px;
+       font-size: 14px;
+    }
+    .contactHolder ul{
+        list-style: none;
+        font-size: 12px;
+    }
+    .imgTeam{
+        height: 150px;
+        width: 150px;
+    }
+    .partners-section{
+        max-width: 100%;
+    }
+}

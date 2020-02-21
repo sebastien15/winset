@@ -1,0 +1,73 @@
+.formSection{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+    /* margin-top: -400px; */
+    background: rgb(20,52,65,0.6);
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+header{
+    color: white;
+    font-size: 28px;
+    margin: 20px auto;
+}
+.formSection form{
+    width: 80%;
+    margin: auto;
+}
+.formGroup{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+}
+.formControl{
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 18px;
+}
+.location{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: -webkit-flex;
+    display: flex;
+}
+.row .inputGroup{
+    width: 48%;
+    margin:2% auto;
+}
+input:hover{
+    border: 1px solid rgb(20,52,65);
+}
+.formGroup label{
+    margin-bottom: 10px;
+}
+.formControlTextarea {
+    height: 200px;
+    border: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.submitButton{
+    background: green;
+    margin-left: 85%;
+    border: 1px solid green;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    margin-bottom: 30px;
+}
+.

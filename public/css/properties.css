@@ -1,0 +1,184 @@
+.landing-section{
+    height: 20vh;;
+}
+.main-section{
+    display: -webkit-flex;
+    display: flex;
+    padding: 20px;
+}
+.search-form-container{
+    width: 32%;
+    margin-right: 0%;
+    margin-left: 3%;
+}
+.search-form-container .container{
+    width: 70%;
+    background: white;
+}
+.simple-search-container{
+    width: 100%;
+}
+.simple-search-container form{
+    position: relative;
+}
+.simple-search-input{
+    position: absolute;
+    background: rgba(37, 36, 36, 0.945);
+    height: 7vh;
+    border: 0px;
+    width: 100%;
+    padding-left: 5px;
+    font-size: 16px;
+    z-index: 1;
+}
+.simple-search-container form button{
+    position: relative;
+    background: black;
+    border: 0px;
+    height: 7vh;
+    width: 15%;
+    margin-left: 85%;
+    z-index: 10;
+    cursor: pointer;
+}
+.complex-search-container{
+    padding: 15px;
+    color: rgb(88, 85, 85);
+}
+.complex-search-container form .formGroup{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.complex-search-container form .formGroup label{
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.complex-search-container form .formGroup select{
+    height: 5vh;
+    border: 1px solid rgb(88, 85, 85);
+    color: rgb(88, 85, 85);
+}
+.formGroupRow{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.formGroupRow .row6{
+    width: 48%;
+}
+.btn-search{
+    background: darkgreen;
+    color: white;
+    height: 5vh;
+    border:0px;
+    width: 50%;
+    margin-top: 10px;
+}
+.properties-container{
+    width: 60%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.properties-container .row{
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(37, 33, 33);
+    border-radius: 5px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+.properties-container .row .img-containerProperties{
+    width: 36%;
+    margin-right: 4.5%;
+    position: relative;
+    max-height: 25vh;
+}
+.img-containerProperties a{
+    min-height: 100%;
+}
+.img-containerProperties a img{
+    width: 100%;
+    min-height: 100%;
+    border-radius: 5px;
+}
+
+.disblock{
+    display: block;
+}
+.displayer{
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    display: none;
+}
+.forBg{
+    position: absolute;
+    margin: 5%;
+    height: 80%;
+    width: 90%;
+    border-radius: 5px;
+    background: rgb(37, 33, 33,0.8);
+    z-index: 4;
+}
+.forBg2{
+    position: absolute;
+    margin: 5%;
+    margin-top: 25%;
+    height: 20%;
+    width: 90%;
+    border-radius: 5px;
+    z-index: 4;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.forBg2 a{
+    color: white;
+    text-decoration: none;
+}
+.properties-container .row .desc-container{
+    width: 58%;
+}
+.desc-container header{
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.desc-container .paragraphContainer{
+    margin-left: 6%;
+    margin-bottom: 25px;
+}
+.desc-container .paragraphContainer header{
+    font-size: 18px;
+}
+.desc-container .paragraphContainer p{
+   font-size: 18px;
+}
+.desc-container p{
+    margin-bottom: 8px;
+}
+.buttons-section{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+}
+.btns{
+    width:48%;
+    background: darkgreen;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    border: 0.1px solid darkgreen;
+    border-radius: 5px;
+    text-align: center;
+}
+.properties-section{
+    display: none;
+}
